@@ -1,0 +1,120 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image: url('Sky.jpg');
+    
+}
+
+nav {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0; 
+    width: 100%;
+    z-index: 1000; 
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: underline;  
+    
+}
+
+nav ul li a:hover {
+    color: #f8c471;
+}
+
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+.about h1{
+    font-size:50px;
+}
+.about p{
+    font-size:20px;
+}
+
+.profile {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color:whitesmoke;
+}
+
+img { 
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+        
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   
+}
+
+section:hover {
+    transform: scale(1.08);
+}
+
+h2 {
+    border-bottom: 2px solid #e38c00;
+    display: inline-block;
+    padding:5px;
+    margin: 10px;
+}
+
+.skill-style li {
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    background-color: #000000; 
+    border-radius: 5px; 
+}
+
+
+.project-description h3 {
+    color: #f8c471;
+}
+
+.project-description ul {
+    padding-left: 20px;
+}
+
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background: black;
+    
+}
